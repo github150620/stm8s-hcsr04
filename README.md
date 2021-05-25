@@ -16,5 +16,5 @@ STM8S003F3P3     HC-SR04
 |          |     |     |
 +----------+     +-----+
 ```
-C4 GPIOC_PIN_4
-D4 TIM2_CH1
+* C4 GPIOC_PIN_4
+* D4 TIM2_CH1
