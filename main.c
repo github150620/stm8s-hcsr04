@@ -111,7 +111,7 @@ void main()
 	if (TIM2_GetITStatus(TIM2_IT_CC2)) {
 		TIM2_ClearITPendingBit(TIM2_IT_CC2);
 		TIM2_Cmd(DISABLE);
-		printf("%ucm\n", (overflow_cnt*1000+TIM2_GetCounter())/59);
+		printf("%ucm\n", ( overflow_cnt * 1000 + TIM2_GetCounter() ) / 58 );
 	}
 }
 
